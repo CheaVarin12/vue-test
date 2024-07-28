@@ -7,6 +7,7 @@ const countryStore = useCountryStore();
 const selectedCountry = ref(null);
 const isModalVisible = ref(false);
 const sortOrder = ref('asc');
+
 const search = ref('');
 
 onMounted(async () => {
